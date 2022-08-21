@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    font: 100% sans-serif;
+
+}
+
+.App_title {
+    padding: 2em;
+    margin: 2em;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.App_title button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 200ms ease;
+}
+
+.App_title button:hover {
+    transform: scale(1.05);
+    transition: transform 200ms ease;
+}
+
+.App_list {
+    padding: 1em;
+    margin: 2em;
+
+}
+
+.App_users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2em;
+    padding: 2em;
+
+}
+
+.App_users button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.App_list_none {
+    display: none;
+}
+
+.App_list_opem {  
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+
+}
+.form{
+    border: 1px solid;
+    padding: 20px;
+    width: max-content;
+    border-radius: 10px;
+    background-color: rgb(204, 221, 181);
+    position: relative;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+.ul_form {
+    list-style: none;
+}
+
+
+
+.list {
+    background-color: #ffffff;
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    transition: transform 200ms ease;
+
+}
+
+.list:hover {
+    transform: scale(1.05);
+    transition: transform 200ms ease;
+}
+
+.list button {
+    width: 40px;
+    height: 40px;
+    padding: 0.5em;
+    margin: 0.5em;
+
+    justify-content: center;
+}
+
+.list button img {
+    width: 20px;
+    height: 20px;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    margin: 2px;
+    outline: none;
+}
+
+li {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.btn_form {
+    width: 100px;
+    height: 30px;
+    margin: 2px;
+    gap: 0.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete_btn {
+    background-color: rgb(243, 168, 168);
+}
